@@ -1,0 +1,2 @@
+chmod +x /var/www/suitecrm/bin/console && \
+/var/www/suitecrm/bin/console suitecrm:app:install -u "admin" -p "admin" -U "suitecrm" -P "suitecrm" -H "mysql_crm" -N "suitecrm" -S "http://localhost/" -d "yes"
